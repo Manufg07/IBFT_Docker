@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Iob Besu Network Workshop]
-  - [Exercise 1: Configure and run a private QBFT (POA) Besu Network](./README.md/#configure-and-run-a-private-ibft-poa-besu-network)
+  - [ Configure and run a private IBFT (POA) Besu Network](./README.md/#configure-and-run-a-private-ibft-poa-besu-network)
 
 
 ## Prerequisites
