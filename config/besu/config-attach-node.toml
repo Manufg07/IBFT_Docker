@@ -1,0 +1,43 @@
+
+genesis-file="/config/genesis.json"
+#COMMENTED node-private-key-file -> AUTO-CREATE NODE KEYS WHEN START
+#node-private-key-file="/opt/besu/keys/nodekey"
+logging="INFO"
+data-path="/opt/besu/data"
+host-allowlist=["*"]
+min-gas-price=0
+
+# rpc
+rpc-http-enabled=true
+rpc-http-host="0.0.0.0"
+rpc-http-port=8545
+rpc-http-cors-origins=["*"]
+
+# ws
+rpc-ws-enabled=true
+rpc-ws-host="0.0.0.0"
+rpc-ws-port=8546
+
+# graphql
+graphql-http-enabled=true
+graphql-http-host="0.0.0.0"
+graphql-http-port=8547
+graphql-http-cors-origins=["*"]
+
+# metrics
+metrics-enabled=true
+metrics-host="0.0.0.0"
+metrics-port=9545
+
+# permissions
+permissions-nodes-config-file-enabled=true
+permissions-nodes-config-file="/config/permissions_config.toml"
+
+# bootnodes
+bootnodes=["enode://c892d4fe022abc5457cb2c8613581af6a5ef98d1b20fbbef8c926754d9757402ed4779b05ca0a39bb4078d35e841de63f4ee90fb6e71b22bf8a6d357eb45e985@172.16.239.11:30303"]
+
+
+# Discovery at boot is set to a list of static files, but will also discover new nodes should they be added
+# static nodes
+static-nodes-file="/config/static-nodes.json"
+discovery-enabled=true

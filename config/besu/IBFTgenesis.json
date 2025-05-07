@@ -1,0 +1,51 @@
+{
+    "nonce": "0x0",
+    "timestamp": "0x58ee40ba",
+    "extraData": "0xf87ea00000000000000000000000000000000000000000000000000000000000000000f854941c3e763e8aa39874e69dd0edf54899e366f50b8294e30bfbe58844fface66d97e2af3b5a355ca3ecb794e7d499b2e511ced78c25fa184c24b2b58aafdb69945a806d6675c557ea504fbddd82b469dc32c22ca6808400000000c0",
+    "gasLimit": "0xFFFF",
+    "gasUsed": "0x0",
+    "number": "0x0",
+    "difficulty": "0x1",
+    "mixHash": "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "config": {
+      "chainId": 1337,
+      "homesteadBlock": 0,
+      "eip150Block": 0,
+      "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "eip155Block": 0,
+      "eip158Block": 0,
+      "byzantiumBlock": 0,
+      "constantinopleBlock": 0,
+      "petersburgBlock": 0,
+      "istanbulBlock": 0,
+      "muirglacierblock": 0,
+      "berlinBlock": 0,
+      "londonBlock": 0,
+      "zeroBaseFee": true,
+      "ibft2": {
+        "blockperiodseconds": 5,
+        "epochlength": 30000,
+        "requesttimeoutseconds": 10
+      }
+    },
+    "alloc": {
+      "fe3b557e8fb62b89f4916b721be55ceb828dbd73": {
+        "balance": "90000000000000000000000",
+        "comment": "test account from quorum-dev-quickstart -- please remove me before entering production"
+      },
+      "f17f52151EbEF6C7334FAD080c5704D77216b732": {
+        "balance": "90000000000000000000000",
+        "comment": "test account from quorum-dev-quickstart -- please remove me before entering production"
+      },
+      "627306090abaB3A6e1400e9345bC60c78a8BEf57": {
+        "balance": "90000000000000000000000",
+        "comment": "test account from quorum-dev-quickstart -- please remove me before entering production"
+      },
+      "0x1415829b0dbc5a0442a11ddd720ce30bca7162e4": {},
+      "0x080d1b30b3922598eeeff05ad7df142675bd2a59": {},
+      "0xd3d2e17b95723decd2575dcd4189264b16ec3a37": {},
+      "0x2dfffd6232159dda4fe70eda1686a4c3d7f2a7fd": {},
+      "0xeebd72f895c99cb697f8f9bd7867fdc067cd845f": {}
+    }
+  }
