@@ -13,9 +13,9 @@ To run these tutorials, you must have the following installed:
 - [Docker and Docker-compose](https://docs.docker.com/compose/install/)
 
 ## 1: Configure and run a private IBFT (POA) Besu Network
-This exercise is designed to give you hands-on experience with setting up a permissioned blockchain network. By the end, you’ll understand the key steps involved in deploying a private network, establishing consensus rules, and connecting nodes securely and efficiently.
+This is designed to setting up a permissioned blockchain network. Key steps involved in deploying a private network, establishing consensus rules, and connecting nodes securely and efficiently.
 
-In this ,:
+In this :
 
 **Configure the Network Genesis File**: We’ll start by setting up a genesis file to define the network's parameters, such as chain ID and consensus algorithm, and establish the initial state of the blockchain.
 
