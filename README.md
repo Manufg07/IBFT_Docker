@@ -1,8 +1,8 @@
-# Iob Besu Network Workshop
+# Besu Network 
 
 ## Table of Contents
 
-- [Iob Besu Network Workshop]
+- [Besu Network]
   - [ Configure and run a private IBFT (POA) Besu Network](./README.md/#configure-and-run-a-private-ibft-poa-besu-network)
 
 
